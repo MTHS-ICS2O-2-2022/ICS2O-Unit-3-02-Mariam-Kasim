@@ -11,9 +11,9 @@
  */
 function calculate() {
   // input
-  const length = parseFloat(document.getElementById("length-number").value)
-  const width= parseFloat(document.getElementById("width-number").value)
-  const height = parseFloat(document.getElementById("height-number").value)
+  const length = parseFloat(document.getElementById("lengthnumber").value)
+  const width= parseFloat(document.getElementById("widthnumber").value)
+  const height = parseFloat(document.getElementById("heightnumber").value)
 
   // process
   const volume = length * width * height / 3
