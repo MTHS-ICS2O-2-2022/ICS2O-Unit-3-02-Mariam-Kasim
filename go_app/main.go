@@ -7,7 +7,7 @@ package main
 
 import "fmt"
 
-func main() ({
+func main() (
 	// This function finds the volume of a pyramid
 	var lenght float64
 	var width float64
@@ -29,6 +29,6 @@ func main() ({
 
 	// output
 	fmt.Println()
-	fmt.Println("The volume is: "volume,"mm³".")
-	fmt.Println ("\nDone.") '
-	) }
+	fmt.Println "The volume is: "volume,"mm³"."
+	fmt.Println "\nDone." '
+	) 
